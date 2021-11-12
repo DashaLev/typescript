@@ -51,7 +51,7 @@ incAge(user, 2)
 interface IAnimal {
     moving: string;
     talking?: string;
-    getInfo(moving:string, talking:string):string
+    getInfo():string
 }
 
 class Cat implements IAnimal {
